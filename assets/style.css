@@ -7,7 +7,7 @@
   border-radius: 0.75rem;
   border: 1px solid #E1E8DA;
   background-color: #F6F8F3;
-  padding: 0.75rem 1rem;
+  padding: 0.8125rem 1rem;
   font-size: 0.9375rem;
   color: #0A1A10;
   font-family: inherit;
@@ -17,14 +17,14 @@
   outline: none;
   border-color: #0A1A10;
   background-color: #ffffff;
-  box-shadow: 0 0 0 2px rgba(134, 226, 43, 0.35);
+  box-shadow: 0 0 0 3px rgba(134, 226, 43, 0.35);
 }
 .form-input::placeholder {
-  color: rgba(74, 90, 79, 0.6);
+  color: rgba(74, 90, 79, 0.55);
 }
 .form-tab {
   cursor: pointer;
-  border-radius: 0.75rem;
+  border-radius: 0.625rem;
   padding: 0.625rem 1rem;
   font-size: 0.875rem;
   font-weight: 700;
@@ -35,17 +35,19 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  border: none;
 }
 .form-tab.active {
   background-color: #0A1A10;
   color: #86E22B;
+  box-shadow: 0 1px 3px rgba(10, 26, 16, 0.15);
 }
 .form-tab:not(.active) {
-  background-color: #F6F8F3;
+  background-color: transparent;
   color: #4A5A4F;
-  border: 1px solid #E1E8DA;
 }
 .form-tab:not(.active):hover {
   background-color: #ffffff;
   color: #0A1A10;
 }
+
