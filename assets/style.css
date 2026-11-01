@@ -7,12 +7,13 @@
   border-radius: 0.5rem;
   border: 1px solid #E1E8DA;
   background-color: #F6F8F3;
-  padding: 0.5625rem 0.8125rem;
-  font-size: 0.875rem;
-  line-height: 1.35rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.25rem;
   color: #0A1A10;
   font-family: inherit;
   transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+  box-sizing: border-box;
 }
 .form-input:focus {
   outline: none;
@@ -26,7 +27,7 @@
 .form-tab {
   cursor: pointer;
   border-radius: 0.45rem;
-  padding: 0.45rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   font-size: 0.8125rem;
   font-weight: 700;
   text-align: center;
@@ -51,40 +52,6 @@
   background-color: #ffffff;
   color: #0A1A10;
 }
-
-/* Buvexa Waitlist Container & Card Spacing */
-.waitlist-container {
-  padding: 2.25rem 1rem;
-}
-@media (min-width: 640px) {
-  .waitlist-container {
-    padding: 3.5rem 2.25rem;
-  }
-}
-@media (min-width: 1024px) {
-  .waitlist-container {
-    padding: 4.5rem 3.5rem;
-  }
-}
-
-.waitlist-card {
-  margin: 1.75rem auto 0;
-  padding: 1.75rem 1.25rem;
-  width: 100%;
-}
-@media (min-width: 480px) {
-  .waitlist-card {
-    margin: 2rem auto 0;
-    padding: 2rem 1.75rem;
-  }
-}
-@media (min-width: 640px) {
-  .waitlist-card {
-    margin: 2.5rem auto 0;
-    padding: 2.5rem 2.25rem;
-  }
-}
-
 .form-input.input-error {
   border-color: #dc2626 !important;
   background-color: #fef2f2 !important;
